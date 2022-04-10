@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário para envio de monografia da Excellência Acadêmica</title>
+	<meta name="author" content="Douglas Henrique">
+	<meta name="description" content="Formulário para envio de monografia do site Excellência Acadêmica">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="icon" href="LogoAtual.jpg">
+</head>
+
+<body>
+
+	<div class="principal">
+	
+		<header>
+			<h1>Formulário para envio de monografia</h1>
+		</header>
+		<nav>
+			<p>	Sabemos que elaborar uma monografia não é uma tarefa fácil e inúmeras são as dúvidas que surgem e as normas que têm de ser cumpridas<br><br>Por isso, ao solicitar um orçamento, você verá o quanto podemos te auxiliar!</p>
+		</nav>
+		<form action="Recebendo_FormulularioGet.aspx" method="get">
+			<fieldset>
+		        <label for="nome">Nome:<br><br></label>
+		        <input type="text" id="nome" size="50" placeholder="Sua resposta"/>
+		    </fieldset>
+		    <fieldset>
+		        <label for="email">E-mail:<br><br></label>
+		        <input type="email" id="email" size="50" placeholder="Sua resposta"/>
+		    </fieldset>
+		    <fieldset>
+		        <label for="instituicao">Qual é a instituição de ensino que você completará a sua formação acadêmica?<br><br></label>
+		        <input type="text" id="instituicao" size="50" placeholder="Sua resposta"/>
+		    </fieldset>
+		    <fieldset>
+		        <label for="data-mono">Qual a data limite de entrega da sua monografia?<br><br></label>
+		        <input type="text" id="data-mono" size="50" placeholder="dd/mm/aaaa" />
+		    </fieldset>
+
+		    <fieldset>
+		        <label for="servicos">Qual(is) serviço(s) da Excellência Acadêmica podem lhe auxiliar?<br><br></label>
+		        <input type="checkbox" id="servico_rev"/> Revisão textual<br><br>
+		        <input type="checkbox" id="servico_format"/> Formatação ABNT ou nas normas específicas<br><br>
+		        <input type="checkbox" id="servico_rev_format"/> Revisão + Formatação<br><br>
+		        <input type="checkbox" id="mentoria"/> Mentoria Acadêmica + Análise de Dados<br><br>
+		        <input type="checkbox" id="coaching"/> Coaching Completo<br><br>
+		        <input type="checkbox" id="slides"/> Elaboração de Slides
+		    </fieldset>
+
+		    <fieldset>
+		        <label for="anexar">Para começar, anexe aqui a sua monografia pronta ou o que tem até o momento:<br><br></label>
+		        <input type="file" id="monografia"/>
+		    </fieldset>
+
+		    <fieldset>
+		        <label for="aceite orcamento">Aceita receber um orçamento sem compromisso?<br><br></label>
+		        <input type="radio" name="opc_orc" id="afirmativo"/> Sim<br><br>
+		        <input type="radio" name="opc_orc" id="negativo"/> Não
+		    </fieldset>
+
+		    <fieldset>
+		        <label for="aceite dados">Está de acordo com a política de privacidade de dados?<br><br></label>
+		        <input type="radio" name="opc_dad" id="afirmativo_dados"/> Sim<br><br>
+		        <input type="radio" name="opc_dad" id="negativo_dados"/> Não
+		    </fieldset>
+
+		    <div class="button_1">
+		    	<input type="submit" />
+		    </div>
+
+		</form>
+
+	</div>
+
+</body>
+
+</html>
